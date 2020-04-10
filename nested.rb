@@ -14,8 +14,9 @@ def hopper
         :known_for => "Unix",
         :languages => ["C"]
       }
+      
     }
-
+programmer_hash[:grace_hopper]
 end
 
 def alan_kay_is_known_for
@@ -35,8 +36,9 @@ def alan_kay_is_known_for
         :known_for => "Unix",
         :languages => ["C"]
       }
+     
     }
-
+ programmer_hash[:alan_kay][:known_for]
 end
 
 def dennis_ritchies_language
@@ -59,6 +61,8 @@ def dennis_ritchies_language
 end
 
 def adding_matz
+
+
 # add the following information to the top level of programmer_hash
 # :yukihiro_matsumoto => {
 #   :known_for => "Ruby",
